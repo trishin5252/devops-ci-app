@@ -1,7 +1,7 @@
 FROM python:3.12-slim
 LABEL org.opencontainers.image.source="https://github.com/trishin5252/devops-ci-app"
 LABEL org.opencontainers.image.description="DevOps CI sample application"
-RUN useradd --system --no-create-home app
+RUN useradd --system --create-home app
 WORKDIR /app
 COPY app/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
