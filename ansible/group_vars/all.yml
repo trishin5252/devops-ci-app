@@ -1,0 +1,6 @@
+---
+app_image: "ghcr.io/trishin5252/devops-ci-app"
+app_tag: "6c8b96971f6b86c254a0bee594f27abe368f635b"
+app_container_name: "devops-ci-app"
+app_host_port: 5000
+app_internal_port: 5000
